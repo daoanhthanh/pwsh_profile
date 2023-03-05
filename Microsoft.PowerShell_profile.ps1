@@ -6,11 +6,17 @@ function ck {git checkout $args}
 
 function cm {git commit -m $args}
 
-function pull{git pull $args}
+function push {git push $args}
+
+function pull {git pull $args}
 
 function stash {git stash $args}
 
 function merge {git merge $args}
+
+function branch {git branch $args}
+
+function this {git branch --show-current}
 
 function add {git add $args}
 
@@ -22,5 +28,5 @@ function mkcd {
 
 function k {kubectl $args}
 
-
+function aicm {aicommits $args}
 
